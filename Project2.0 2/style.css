@@ -1,0 +1,1153 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+header {
+    display: flex;
+    align-items: center;
+    background-color: rgba(128, 128, 128, 0.519);
+    width: 100%;
+    padding: 20px 15px 20px 15px;
+    font-size: 16px;
+    justify-content: space-evenly;
+    position: fixed;
+    top: 0;
+}
+
+.burger-menu {
+    display: none;
+}
+.logo {
+    display: flex;
+    color: #7B560C;
+    font-size: 24px;
+    font-family: 'Leckerli One', cursive;
+
+}
+
+.sections {
+    display: flex;
+    list-style-type: none;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 80px;
+    color: rgba(0, 0, 0, 0.79);
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    padding: 5px;
+    text-decoration: none;
+}
+.sections a:link {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.79);
+  }
+  
+  .sections a:visited {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.79);
+  }
+  
+  .sections a:hover {
+    text-decoration: none;
+    color: rgba(241, 241, 241, 0.79);
+  }
+  
+  .sections a:active {
+    text-decoration: none;
+    color: rgba(241, 241, 241, 0.79);
+  }
+.sections li:hover {
+    display: block;
+    background-color: rgb(0, 0, 0);
+    color: rgba(241, 241, 241, 0.79);
+    border-radius: 15px;
+    border: solid 8px rgb(0, 0, 0);
+    
+}
+.icons {
+    display: flex;
+    gap: 45px;
+    align-items: center;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.top {
+    
+    background-image: url(./image/furni-pic\ 1.png);
+    background-size:cover;
+    height: 850px;
+    width: 100%;
+    position: relative;
+    top: 0px;
+    
+}
+
+.top h1 {
+    color: rgb(0, 0, 0);
+    font-family: 'Playfair Display', serif;
+    font-size: 75px;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    
+    
+}
+
+.search input {
+    display: flex;
+    height: 70px;
+    width: 600px;
+    border-radius: 46px;
+    background-color: #cecece58;
+    mix-blend-mode: multiply;   
+    font-size: 20px;
+    color: #FFF;
+    border: none;
+    cursor: pointer;
+}
+.search {
+    display: flex;
+    align-items: center;
+    height: fit-content;
+    width: fit-content;
+    
+    
+}
+
+.hero-section-texts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.hero-section-texts h1 {
+    text-align: center;
+}
+
+
+::placeholder{
+    color: #FFF;
+    padding: 40px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+}
+.search-icon {
+    height: 40px;
+    width: 30px;
+    position: absolute;
+    padding: 10px;
+}
+
+.dis-head {
+    display: flex;
+    padding: 20px 0px 40px 100px;
+    margin-top: 40px;
+}
+
+.dis-head h2 {
+    font-size: 50px;
+    color: rgb(0, 0, 0);
+    font-family: 'Poppins', sans-serif;
+    margin-right: 110px;
+    width: 759px;
+    
+}
+
+.dis-head-buttons {
+    display: flex;
+    gap: 35px;
+    font-family: 'Poppins', sans-serif;
+    align-items: center;
+    justify-content: center;
+}
+.dis-head-buttons button {
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 30px;
+    border: 3px solid #000;
+    color: #080808;
+    padding: 6px 20px;
+    background-color: transparent;
+    align-items: center;
+    font-size: 20px;
+    cursor: pointer;
+    
+}
+
+
+.all-product :hover {
+    background-color: #0D0D0D;
+    color: #FFF;
+    cursor: pointer;
+}
+.liv-room :hover {
+    background-color: #0D0D0D;
+    color: #FFF;
+    cursor: pointer;
+}
+
+.bed-room :hover{
+    background-color: #0D0D0D;
+    color: #FFF;
+    cursor: pointer;
+}
+
+.outdoor :hover {
+    background-color: #0D0D0D;
+    color: #FFF;
+    cursor: pointer;
+}
+
+.dis-text {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: 'Poppins', sans-serif;
+    padding: 40px;
+}
+
+.dis-text h4 {
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 20px;
+}
+
+.dis-text p {
+    color: #7B560C;
+    font-size: 20px;
+}
+
+.dis-text span {
+    display: flex;
+    font-size: 20px;
+    padding: 0px 20px;
+}
+
+
+.best-seller h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 48px;
+    font-weight: bold;
+    padding: 60px;
+    height: 80px;
+}
+
+.best-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+    padding-bottom: 80px;
+  
+}
+
+.best-seller p {
+    display: flex;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.minimal span {
+    color: rgba(0, 0, 0, 0.48);
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.minimal div {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.minimal {
+    display: flex;
+    width: 572px;
+    height: 316px;
+    background-image: url(./image/Rectangle\ 5.png);
+    
+    background-size: cover;
+}
+
+.modern {
+    display: flex;
+    width: 280px;
+    height: 309px;
+    background-image: url(./image/Rectangle\ 7.png);
+    background-size: cover;
+   
+}
+
+.modern div {
+    padding: 20px;
+}
+
+.sofa-set {
+    display: flex;
+    width: 279px;
+    height: 309px;
+    background-image: url(./image/Rectangle\ 8.png);
+    background-size: cover;
+    color: #FFF;
+}
+
+.sofa-set div {
+    display: flex;
+    padding: 20px;
+}
+
+.sets {
+    display: flex;
+    width: 591px;
+    height: 640px;
+    background-image: url(./image/Rectangle\ 6.png);
+    background-size: cover;
+    color: #FFF;
+}
+
+.sets div {
+    display: flex;
+    padding: 20px;
+}
+
+.sets p {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    width: 350px;
+    font-size: 48px;
+}
+
+.sets button {
+    display: flex;
+    font-size: 24px;
+    padding: 10px;
+}
+.mother {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.child {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.best-seller a:link {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.79);
+  }
+  
+  .best-seller a:visited {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.79);
+  }
+  
+  .best-seller a:hover {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.79);
+  }
+  
+  .best-seller a:active {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.79);
+  }
+.best-seller button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    padding: 6px 20px;
+    background-color: transparent;
+    border: 5px solid rgba(0, 0, 0, 0.79);
+    color:rgba(0, 0, 0, 0.79);
+    cursor: pointer;
+    font-size: 40px;
+    margin: auto;
+    border-radius: 25px;
+}
+.best-seller button :hover {
+    color: #FFF;
+    background-color: rgba(0, 0, 0, 0.79);
+    
+}
+
+.best-middle {
+    display: flex;
+    background-image: url(./image/Rectangle\ 9.png);
+    background-size: cover;
+    height: 800px;
+    padding:20px 0px 40px 250px;
+    
+}   
+
+.best-middle h2 {
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    font-size: 68px;
+    font-weight: 600;
+    padding: 80px 40px 80px 40px;
+    width: 868px;
+    text-align: center;
+}
+
+
+.best-middle button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    color: #000;
+    padding: 13px 19px;
+    border-radius: 13px;
+    border: 2px solid #000;
+    font-family: 'Poppins', sans-serif;
+    font-size: 26px;
+    gap: 40px;
+    height: fit-content;
+    position: relative;
+    top: 30px;
+    right: 580px;
+    cursor: pointer;
+  
+}
+.best-middle button:hover {
+    background-color: #000;
+    color: #FFF;
+}
+
+.options {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 60px 20px;
+    
+}
+
+.options h4 {
+    display: flex;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+.options h5 {
+    display: flex;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    margin: auto;
+    padding: 10px 20px 50px 20px;
+}
+
+.top-rated {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+
+.top-1 p {
+    color: #7B560C;
+    font-size: 20px;
+}
+
+.top-1 span {
+    display: flex;
+    font-size: 20px;
+}
+
+
+.top-2 p {
+    color: #7B560C;
+    font-size: 20px;
+}
+
+.top-2 span {
+    display: flex;
+    font-size: 20px;
+}
+.best-seling {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.best-1 p {
+    color: #7B560C;
+    font-size: 20px;
+}
+
+.best-1 span {
+    display: flex;
+    font-size: 20px;
+}
+
+
+.best-2 p {
+    color: #7B560C;
+    font-size: 20px;
+}
+
+.best-2 span {
+    display: flex;
+    font-size: 20px;
+}
+.on-sale {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.on-1 p {
+    color: #7B560C;
+    font-size: 20px;
+}
+
+.on-1 span {
+    display: flex;
+    font-size: 20px;
+}
+
+.on-2 p {
+    color: #7B560C;
+    font-size: 20px;
+}
+
+.on-2 span {
+    display: flex;
+    font-size: 20px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    padding: 70px;
+    font-size: 15px;
+}
+
+.title-custmer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 48px;
+    font-weight: bold;
+    padding: 10px;
+    margin: auto;
+}
+
+.Shwetha {
+    display: grid;
+    background-image: url(./image/Rectangle\ 21.png);
+    height: 600px;
+    width: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-items: center;
+    justify-content: center;
+}
+
+.Shwetha-1 {
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    flex-direction: column;
+    text-align: center;
+    background-color: #ECECEC;
+    border-radius: 20px;
+    flex-direction: column;
+    width: 400px;
+    height: 200px;
+    font-size: 18px;
+    padding-top: 20px;
+    position: relative;
+    top: 50px;
+}
+.Shwetha img {
+    display: flex;
+    height: 132px;;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: -70px;
+}
+
+.Shwetha-1 h4 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+.Jane {
+    display: grid;
+    background-image: url(./image/Rectangle\ 22.png);
+    background-size: cover;
+    height: 600px;
+    width: 500px;
+    background-repeat: no-repeat;
+    align-items: center;
+    justify-content: center;
+}
+
+.Jane-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: #ECECEC;
+    border-radius: 20px;
+    flex-direction: column;
+    width: 400px;
+    height: 200px;
+    font-size: 18px;
+    padding-top: 20px;
+    position: relative;
+    top: 50px;
+}
+.Jane-1 h4 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+.Jane img {
+    display: flex;
+    height: 132px;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: -70px;
+}
+
+.David {
+    display: grid;
+    background-image: url(./image/Rectangle\ 23.png);
+    background-size: cover;
+    height: 600px;
+    width: 500px;
+    background-repeat: no-repeat;
+    align-items: center;
+    justify-content: center;
+}
+
+.David-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: #ECECEC;
+    border-radius: 20px;
+    flex-direction: column;
+    width: 400px;
+    height: 200px;
+    font-size: 18px;
+    padding-top: 20px;
+    position: relative;
+    top: 50px;
+}
+
+.David-1 h4 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.David img {
+    display: flex;
+    height: 132px;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: -70px;
+}
+
+
+.container {
+    display: flex;
+    background-image: url(./image/about\ US.png);
+    width: 100%;
+    height: 1100px;
+    background-size: cover;
+    position: relative;
+}
+
+.container div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 44px;
+    background: radial-gradient(200.39% 200.39% at 6.85% 7.04%, #080808 0%, rgba(6, 6, 6, 0.49) 83.54%, rgba(4, 4, 4, 0.00) 100%);
+    width:500px;
+    height: 500px;
+    flex-direction: column;
+    font-size: 24px;
+    color: #FFF;
+    font-family: 'Poppins', sans-serif;
+    position: absolute;
+    top: 200px;
+    right: 50px;
+}
+
+.container h2 {
+    display: flex;
+    padding: 20px 10px ;
+}
+.container p {
+    display: flex;
+    padding: 30px 20px;
+    align-items: center;
+    justify-content: center;
+    line-height: normal;
+    text-align: center;
+}
+
+.container button {
+    display: flex;
+    padding: 15px 35px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 24px;
+    border-radius: 50px;
+    background-color: #D9D9D9;
+}
+
+.container button :hover {
+    background-color: #000;
+    color: #D9D9D9;
+    cursor: pointer;
+    border-radius: 50px;
+    border-color: #D9D9D9;
+}
+
+footer {
+    background: #070606;
+    display: flex;
+    padding: 40px 20px;
+    color: #F9F9F9;
+    flex-direction: column;
+    
+}
+
+footer h3 {
+    color: #7B560C;
+    font-size: 40px;
+    font-family: 'Leckerli One', cursive;
+    margin-right: 400px;
+    margin-left: 80px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+footer span {
+    display: flex;
+    width: 370px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    margin-right: 400px;
+    margin-left: 80px;
+    line-height: 149.9%;
+}
+
+.lists {
+    display: flex;
+    padding: 20px;
+    gap: 40px;
+    list-style-type: none;
+    width: 200px;
+}
+.lists p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 20px 20px;
+}
+.lists ul {
+    list-style-type: none;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 20px 10px;
+}
+
+.lists li {
+    padding: 20px 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.end {
+    display: flex;
+    justify-content: space-between;
+    height: min-content;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    
+}
+.footer {
+    display: flex;
+}
+    
+
+
+@media (max-width: 1024px) {
+    header {
+        padding: 10px;
+    }
+
+    .logo {
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+
+    .sections {
+        margin-right: 20px;
+        display: none;
+    }
+
+    .burger-menu {
+        display: flex; 
+        padding: 40px;
+        font-size: 24px;
+    }
+
+    .sections {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 80px;
+        left: 0;
+        width: 100%;
+        background-color: #fff;
+        padding: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        z-index: 1;
+    }
+
+    .sections li {
+        margin-bottom: 10px;
+        cursor: pointer;
+    }
+
+    .sections.show {
+        display: flex;
+    }
+
+    .burger-menu i {
+        cursor: pointer;
+    }
+
+    .hero-section-texts {
+        display: flex;
+        flex-direction: column;
+        padding: 40px;
+    }
+    .dis-head {
+        padding: 10px 0px 20px 50px;
+    }
+    .dis-head h2 {
+        font-size: 40px;
+        width: 550px;
+        margin-right: 80px;
+    }
+    .dis-head-buttons {
+        display: flex;
+        flex-direction: column;
+    }
+    .dis-text {
+        display: flex;
+        flex-direction: column;
+    }
+    .best-seller h2 {
+        padding: 40px;
+    }
+
+    .best-header {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .best-middle {
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .cards {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container div {
+        position: absolute;
+        right: 120px;
+    }
+
+    .lists {
+        display: flex;
+        flex-direction: column;
+        width: 100px;
+        align-items: center;
+    }
+}
+
+@media (max-width: 768px) {
+    header {
+        padding: 10px;
+    }
+
+    .logo {
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+
+    .sections {
+        margin-right: 20px;
+        display: none;
+    }
+
+    .burger-menu {
+        display: flex; 
+        padding: 40px;
+        font-size: 24px;
+    }
+
+    .sections {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 80px;
+        left: 0;
+        width: 100%;
+        background-color: #fff;
+        padding: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        z-index: 1;
+    }
+
+    .sections li {
+        margin-bottom: 10px;
+        cursor: pointer;
+    }
+
+    .sections.show {
+        display: flex;
+    }
+
+    .burger-menu i {
+        cursor: pointer;
+    }
+
+    .hero-section-texts {
+        display: flex;
+        flex-direction: column;
+        padding: 40px;
+    }
+    .dis-head {
+        padding: 10px 0px 20px 50px;
+    }
+    .dis-head h2 {
+        width: 550px;
+        margin-right: 80px;
+    }
+    .dis-head-buttons {
+        display: flex;
+        flex-direction: column;
+    }
+    .dis-text {
+        display: flex;
+        flex-direction: column;
+    }
+    .best-seller h2 {
+        padding: 40px;
+    }
+
+    .best-header {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .best-middle {
+        /* align-items: center; */
+        text-align: center;
+        /* justify-content: center; */
+        
+    }
+
+    .best-middle h2 {
+        font-size: 58px;
+        padding: 20px 40px;
+    }
+
+    .best-middle button {
+        position: relative;
+        right: 250px;
+    }
+
+
+    .cards {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container div {
+        position: absolute;
+        right: 120px;
+    }
+
+    .footer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .lists {
+        display: flex;
+        gap: 10px;
+        padding: 0px;
+    }
+}
+
+@media (max-width: 540px) {
+    header {
+        padding: 10px;
+    }
+
+    .logo {
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+
+    .sections {
+        margin-right: 20px;
+        display: none;
+    }
+
+    .burger-menu {
+        display: flex; 
+        padding: 40px;
+        font-size: 24px;
+    }
+
+    .sections {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 80px;
+        left: 0;
+        width: 100%;
+        background-color: #fff;
+        padding: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        z-index: 1;
+    }
+
+    .sections li {
+        margin-bottom: 10px;
+        cursor: pointer;
+    }
+
+    .sections.show {
+        display: flex;
+    }
+
+    .burger-menu i {
+        cursor: pointer;
+    }
+
+    .hero-section-texts {
+        display: flex;
+        flex-direction: column;
+        padding: 40px;
+    }
+    
+    .dis-head {
+        display: flex;
+        flex-direction: column;
+        padding: 10px 0px 20px 50px;
+    }
+    .dis-head h2 {
+        width: 550px;
+        margin-right: 80px;
+    }
+    .dis-head-buttons {
+        display: flex;
+        flex-direction: column;
+    }
+    .dis-text {
+        display: flex;
+        flex-direction: column;
+    }
+    .best-seller h2 {
+        padding: 40px;
+    }
+
+    .best-header {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .best-middle {
+        text-align: center;
+        
+    }
+
+    .best-middle h2 {
+        font-size: 58px;
+        padding: 20px 40px;
+    }
+
+    .best-middle button {
+        position: relative;
+        right: 200px;
+        top: 360px;
+    }
+
+    .options {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cards {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container div {
+        position: absolute;
+        right: 20px;
+    }
+
+    .footer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .lists {
+        display: flex;
+        gap: 10px;
+        padding: 0px;
+    }
+}
